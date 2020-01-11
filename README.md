@@ -8,22 +8,20 @@ follow all input type text box and selector how i am validating form.
 
 
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>validation</title>
     <link href="vendors/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
      <link href="/helpers/twostepdevelopers.helpers.css" rel="stylesheet" />
-<script src="vendors/jquery/dist/jquery.js"></script>
-<script src="/helpers/twostepdevelopers.helpers.css/twostepdevelopers.helpers.js"></script>
-
+<script src="/jquery.js"></script>
+<script src="/helpers/twostepdevelopers.helpers.css/twostepdevelopers.helpers.js"></script
    
 </head>
 
 <body class="container">
     <br />
     <br />
-    <form id="form1" runat="server">
+    <form>
        
         <label for="txt">Name</label>
         <input type="text" id="txt" class="required onlyNumber"  data-required="name is required." data-numeric-msg-for="only number is allowed" />
