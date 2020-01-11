@@ -1,0 +1,7 @@
+﻿
+input.tsd-not-valid,select.tsd-not-valid{
+    border:1px solid red;
+}
+div.tsd-not-valid, span.tsd-not-valid, label.tsd-not-valid {
+    color: red;
+}
