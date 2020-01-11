@@ -5,7 +5,7 @@ follow this instructions...
 1. firt drag and drop css ,and js files in head tag.
 
 follow all input type text box and selector how i am validating form.
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index2.aspx.cs" Inherits="index2" %>
+
 
 <!DOCTYPE html>
 
@@ -13,9 +13,9 @@ follow all input type text box and selector how i am validating form.
 <head runat="server">
     <title>validation</title>
     <link href="vendors/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-     <link href="Scripts/Modules/appHelpers/twostepdevelopers.helpers.css" rel="stylesheet" />
+     <link href="/helpers/twostepdevelopers.helpers.css" rel="stylesheet" />
 <script src="vendors/jquery/dist/jquery.js"></script>
-<script src="Scripts/Modules/appHelpers/twostepdevelopers.helpers.js"></script>
+<script src="/helpers/twostepdevelopers.helpers.css/twostepdevelopers.helpers.js"></script>
 
    
 </head>
